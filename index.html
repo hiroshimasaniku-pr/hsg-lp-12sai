@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>12歳からの寮生活｜広島三育学院中学校</title>
+<meta name="description" content="広島三育学院は、広島県三原市にある全寮制・男女共学の中高一貫校です。12歳から寮で暮らす生徒たちのこと、クリスマスコンサート、入試の日程をご案内します。">
+<meta property="og:title" content="12歳からの寮生活｜広島三育学院中学校">
+<meta property="og:description" content="可愛い子には旅をさせよ、は本当でした。――在校生保護者の声より">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/dorm.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@700;900&family=Zen+Old+Mincho:wght@600;700&display=swap" rel="stylesheet">
+<style>
+/* layout: スマホ縦1カラム。入口2パターン×エリア2つを、URLの#で切り替える。セクションの順番も入口ごとに入れ替える */
+:root{
+  --night:#16222e; --night-2:#203141; --gold:#c8902e; --gold-soft:#f4e6cc;
+  --paper:#fbfaf7; --ink:#1d2329; --muted:#5d6670; --line:#e3e0d9;
+  --display:"Zen Kaku Gothic New","Hiragino Sans",sans-serif;
+  --voice:"Zen Old Mincho","Hiragino Mincho ProN",serif;
+  --body:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:#e9e6df;color:var(--ink);font-family:var(--body);line-height:1.8;font-size:15px}
+.page{max-width:460px;margin:0 auto;background:var(--paper);padding-bottom:84px;box-shadow:0 0 0 1px var(--line)}
+.flow{display:flex;flex-direction:column}
+.mockbar{background:#fff7e0;color:#6b4e12;font-size:12px;padding:10px 14px;border-bottom:1px solid #eadbb0;line-height:1.6}
+.switch{display:grid;grid-template-columns:auto 1fr 1fr;gap:6px;align-items:center;margin-top:8px}
+.switch span{font-weight:700;font-size:11px}
+.switch a{font-size:12px;color:#6b4e12;border:1px solid #d9c38b;border-radius:999px;padding:2px 8px;text-decoration:none;text-align:center}
+.switch a[aria-current="true"]{background:#6b4e12;color:#fff;border-color:#6b4e12}
+section{padding:40px 20px}
+h2{font-family:var(--display);font-size:22px;line-height:1.45;margin:0 0 16px;text-wrap:balance}
+.eyebrow{font-size:12px;letter-spacing:.12em;color:var(--gold);font-weight:700;margin-bottom:6px}
+/* hero: 寮生活入口 */
+.hero{background:var(--night);color:#fff;padding:28px 20px 32px}
+.hero .school{font-size:12px;color:#cfd7df;letter-spacing:.08em}
+.hero h1{font-family:var(--voice);font-weight:700;font-size:46px;line-height:1.2;margin:14px 0 14px}
+.hero .voice{font-family:var(--voice);font-size:19px;line-height:1.7;color:var(--gold-soft);margin:0}
+.hero .voice small{display:block;font-family:var(--body);font-size:12px;color:#aeb8c2;margin-top:4px}
+.photo{display:block;width:100%;object-fit:cover;border-radius:12px;margin-top:18px}
+.r45{aspect-ratio:4/5}.r43{aspect-ratio:4/3}
+.notice{display:block;color:#fff;text-decoration:none;background:var(--night-2);border:1px solid #3a4c5e;border-radius:10px;padding:10px 12px;margin-top:16px;font-size:13px}
+.notice b{color:var(--gold-soft)}
+/* hero: コンサート入口 */
+.hero-c{position:relative;color:#fff;background:#0f171f;min-height:640px;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+.hero-c img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% 50%}
+.hero-c::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,18,26,.15) 0%,rgba(12,18,26,.25) 35%,rgba(12,18,26,.92) 72%)}
+.hero-c img.inflow{position:relative;inset:auto;height:auto;aspect-ratio:4/3;flex:none}
+.hero-c .in{position:relative;z-index:1;padding:24px 20px 28px}
+.hero-c .label{font-family:var(--voice);font-size:14px;color:var(--gold-soft);letter-spacing:.06em}
+.hero-c h1{font-family:var(--voice);font-weight:700;font-size:30px;line-height:1.5;margin:8px 0 16px;text-wrap:balance}
+.band{background:var(--gold);color:#fff;border-radius:10px;padding:10px 14px;font-weight:700;line-height:1.6}
+.band small{display:block;font-weight:500;font-size:12px;opacity:.95}
+.hero-c .school{font-size:12px;color:#cfd7df;margin-top:12px}
+/* placeholder */
+.ph{position:relative;border:2px dashed #b9b2a4;border-radius:12px;background:repeating-linear-gradient(135deg,#efece6 0 12px,#e8e4dc 12px 24px);display:flex;align-items:flex-end;padding:12px;color:#4a4339;margin:18px 0 0}
+.ph .tag{position:absolute;top:10px;left:10px;font-size:11px;font-weight:700;background:var(--gold);color:#fff;border-radius:6px;padding:1px 8px}
+.ph p{margin:0;font-size:12.5px;line-height:1.65;background:rgba(255,255,255,.82);border-radius:8px;padding:8px 10px}
+/* buttons */
+.cta{display:grid;gap:10px;margin-top:22px}
+.btn{display:block;text-align:center;text-decoration:none;font-weight:700;border-radius:12px;padding:15px 14px;font-size:15px}
+.btn.line{background:#06c755;color:#fff}
+.btn.sub{background:transparent;color:inherit;border:1.5px solid currentColor;padding:12px}
+.btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.note{font-size:12px;color:var(--muted);margin-top:8px}
+.dark .note,.hero .note,.hero-c .note{color:#aeb8c2}
+/* voices */
+.quote{font-family:var(--voice);font-size:17px;line-height:1.95;border-left:3px solid var(--gold);padding:2px 0 2px 16px;margin:18px 0 6px}
+.who{font-size:12px;color:var(--muted);padding-left:19px}
+.voices{display:grid;gap:12px;margin-top:22px}
+.vcard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.vrow{display:grid;grid-template-columns:72px 1fr;gap:10px;align-items:start}
+.vrow+.vrow{margin-top:8px;padding-top:8px;border-top:1px dashed var(--line)}
+.vrow p{margin:0;font-size:14px;line-height:1.75}
+.vrow.now p{font-family:var(--voice);font-size:15.5px}
+.vlab{font-size:11px;font-weight:700;color:var(--muted);border:1px solid var(--line);border-radius:999px;text-align:center;padding:1px 0;margin-top:3px}
+.vrow.now .vlab{color:#fff;background:var(--gold);border-color:var(--gold)}
+.vwho{font-size:12px;color:var(--muted);margin-top:8px;text-align:right}
+.temp{display:inline-block;font-size:11px;color:#9a3d1e;border:1px solid #e3b5a4;border-radius:4px;padding:0 6px;margin-left:6px;font-family:var(--body);vertical-align:2px}
+/* bridge (コンサート入口のみ) */
+.bridge{background:var(--night-2);color:#fff}
+.bridge p{margin:0 0 12px}
+/* pillars */
+.pillars{display:grid;gap:22px}
+.pillar h3{font-family:var(--display);font-size:18px;margin:12px 0 4px}
+.pillar p{margin:0;color:var(--muted)}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:26px}
+.facts div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.facts b{display:block;font-family:var(--voice);font-size:24px;line-height:1.2;color:var(--night)}
+.facts span{font-size:12px;color:var(--muted)}
+/* concerts */
+.dark{background:var(--night);color:#fff}
+.concerts{display:grid;gap:12px;margin-top:8px}
+.concert{background:var(--night-2);border:1px solid #33475a;border-radius:14px;padding:16px}
+.concert.focus{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
+.concert .area{font-size:12px;color:var(--gold-soft);font-weight:700}
+.concert .when{font-family:var(--display);font-size:20px;margin:2px 0}
+.concert ul{margin:6px 0 0;padding-left:1.1em;font-size:14px;color:#dbe2e8}
+.booth{display:inline-block;margin-top:8px;font-size:12px;font-weight:700;background:var(--gold);color:#fff;border-radius:999px;padding:2px 10px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:10px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{width:38%;font-weight:700}
+td{font-variant-numeric:tabular-nums}
+details{border-bottom:1px solid var(--line);padding:12px 0}
+summary{font-weight:700;cursor:pointer}
+details p{margin:8px 0 0;color:var(--muted)}
+.telbox{margin-top:22px;border:1.5px solid var(--night);border-radius:12px;padding:14px 16px;text-align:center}
+.telbox span{display:block;font-size:13px;color:var(--muted)}
+.telbox a{display:block;font-family:var(--display);font-size:28px;font-weight:900;color:var(--night);text-decoration:none;letter-spacing:.02em;margin:2px 0}
+.telbox small{font-size:12px;color:var(--muted)}
+.closing{background:var(--night);color:#fff}
+.tel{font-size:13px;color:#cfd7df;margin-top:14px}
+footer{padding:18px 20px 22px;font-size:11px;color:var(--muted)}
+.guide{display:block;text-decoration:none;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:14px}
+.guide:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.guide .g1{display:block;font-family:var(--voice);font-size:17px;font-weight:700}
+.guide .g2{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+.guide .g3{display:block;font-size:12px;color:var(--gold);font-weight:700;margin-top:6px}
+.sticky{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:center;pointer-events:none}
+.sticky .inner{width:100%;max-width:460px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(251,250,247,.96);border-top:1px solid var(--line);pointer-events:auto}
+.sticky .btn{padding:13px}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="flow">
+
+<!-- HERO 寮生活入口 -->
+<header class="hero" data-entry="ryo" data-o-ryo="1">
+  <div class="school">広島三育学院中学校　全寮制・広島県三原市</div>
+  <h1>12歳からの<br>寮生活</h1>
+  <p class="voice">可愛い子には旅をさせよ、<br>は本当でした。<small>在校生保護者の声より</small></p>
+  <img class="photo r45" src="img/dorm.jpg" alt="寮の部屋で、窓辺で話す生徒たち" style="object-position:48% 50%">
+  <a class="notice" href="#concert"><span data-area="hh">今年も<b>12/9（水）18:00 東広島くらら</b>で、生徒たちがクリスマスコンサートを開きます</span><span data-area="osaka"><b>12/13（日）大阪</b>で、生徒たちがクリスマスコンサートを開きます</span> →</a>
+  <div class="cta">
+    <a class="btn line" href="https://lin.ee/wgBShTR">学校とコンサートの案内を受け取る（LINE）</a>
+    <a class="btn sub" href="https://docs.google.com/a/saniku.ed.jp/forms/d/e/1FAIpQLSfEn3PVfSddrivJyTrLy3nX7ndAHgS3T33gy6OCp4jaVe19fg/viewform?c=0&amp;w=1">資料を請求する</a>
+  </div>
+</header>
+
+<!-- HERO コンサート入口 -->
+<header class="hero-c" data-entry="concert" data-o-concert="1">
+  <img src="img/handbell.jpg" alt="ハンドベルを奏でる生徒たちの手元" data-area="hh">
+  <img class="inflow" src="img/hall.jpg" alt="ホールのステージで歌う聖歌隊と指揮者" data-area="osaka" style="object-position:70% 72%">
+  <div class="in">
+    <div class="label">広島三育学院｜クリスマスコンサート</div>
+    <h1><span data-area="hh">クリスマスの夜、<br>ハンドベルの音色と<br>聖歌隊の歌声を。</span><span data-area="osaka">広島から、<br>高校生の聖歌隊が<br>大阪へ。</span></h1>
+    <div class="band" data-area="hh">12/9（水）18:00 開演<small>東広島芸術文化ホールくらら｜入場無料</small></div>
+    <div class="band" data-area="osaka">12/13（日）13:30〜15:00<small>SDA大阪センター教会｜入場無料</small></div>
+    <div class="school" data-area="osaka" style="color:var(--gold-soft)">同じ日の11:00から、京阪モールでミニコンサートもあります</div>
+    <div class="cta">
+      <a class="btn line" href="https://lin.ee/wgBShTR">コンサートの案内を受け取る（LINE）</a>
+    </div>
+    <div class="school">広島三育学院中学校・高等学校（全寮制・広島県三原市）</div>
+  </div>
+</header>
+
+<!-- BRIDGE (コンサート入口のみ) -->
+<section class="bridge" data-entry="concert" data-o-concert="2">
+  <div class="eyebrow">演奏する生徒たち</div>
+  <h2>ステージに立つのは、<br>親元を離れ、寮で暮らす生徒たちです。</h2>
+  <p data-area="hh">広島三育学院は、中学生から高校生までが同じ寮で暮らす全寮制の学校です。演奏する中高生の聖歌隊とハンドベルは、毎日の寮生活の中で練習を重ねてきました。中には12歳から寮で暮らしている生徒もいます。</p>
+  <p data-area="osaka">広島三育学院は、中学生から高校生までが同じ寮で暮らす全寮制の学校です。大阪で歌う高校生の聖歌隊は、毎日の寮生活の中で練習を重ねてきました。中学から入学し、12歳から寮で暮らしている生徒もいます。</p>
+  <p>会場には学校の先生がいます。寮のこと、入試のこと、お気軽にお声がけください。</p>
+</section>
+
+<!-- VOICES -->
+<section data-o-ryo="2" data-o-concert="4">
+  <div class="eyebrow">保護者の声</div>
+  <h2>12歳で手放すことが、<br>不安でなかったわけではありません。</h2>
+  <p class="quote">かわいい子には旅をさせよとは、本当でした。我が子を12歳で旅に出すのは寂しかったですが、たくましく成長してくれました。</p>
+  <p class="who">高校2年生の保護者</p>
+  <div class="voices">
+    <div class="vcard">
+      <div class="vrow"><span class="vlab">送り出す前</span><p>いろいろ大丈夫かな…全て不安でした。</p></div>
+      <div class="vrow now"><span class="vlab">いま</span><p>子のできないことを探すのではなく、今の姿を認めて一緒に笑えるようになりました</p></div>
+      <div class="vwho">中学1年生の保護者</div>
+    </div>
+    <div class="vcard">
+      <div class="vrow"><span class="vlab">送り出す前</span><p>ホームシック。身の回りのことを自分でできるかどうか。</p></div>
+      <div class="vrow now"><span class="vlab">いま</span><p>何を聞いても「わからない」と答えていたのが、自分の意見を言うようになり、人の意見も聞く耳を持つようになりました。</p></div>
+      <div class="vwho">中学1年生の保護者</div>
+    </div>
+    <div class="vcard">
+      <div class="vrow"><span class="vlab">送り出す前</span><p>寮生活で友達と仲良くやっていけるか</p></div>
+      <div class="vrow now"><span class="vlab">いま</span><p>小学生の時は、やってもらって当たり前で、感謝することもなかったですが、寮生活をし、親の有り難さを感じたようで、親に感謝の言葉を伝えてくれるようになりました。</p></div>
+      <div class="vwho">中学3年生の保護者</div>
+    </div>
+  </div>
+  <img class="photo r43" src="img/lounge.jpg" alt="寮の談話室で、寮の先生と笑い合う生徒たち" style="object-position:45% 50%">
+  <p class="note">寮の談話室で。寮の先生がいつもそばにいます。</p>
+</section>
+
+<!-- PILLARS -->
+<section style="background:#f3f1ec" data-o-ryo="3" data-o-concert="3">
+  <div class="eyebrow">12歳からの寮生活とは</div>
+  <h2>暮らす、学ぶ、動く、根を張る。<br>毎日が、ひとつの生活です。</h2>
+  <p style="margin:0 0 6px;color:var(--muted)">広島三育学院は、広島県三原市の山あいにある全寮制・男女共学の中高一貫校です。「生きるを、育む。」を掲げ、毎日の4つの場面で、知性・身体性・霊性・社会性を育てます。</p>
+  <div class="pillars">
+    <div class="pillar">
+      <img class="photo r43" src="img/walk.jpg" alt="校舎の前の坂道を、笑いながら歩く生徒たち" style="object-position:55% 60%">
+      <h3>暮らす</h3>
+      <p>食事も自治も、仲間と一緒に。親元を離れた共同生活の中で、自分のことを自分でする力が育ちます。</p>
+    </div>
+    <div class="pillar">
+      <img class="photo r43" src="img/class.jpg" alt="窓から緑の見える教室で授業を受ける生徒たち" style="object-position:55% 50%">
+      <h3>学ぶ</h3>
+      <p>教師1人に生徒8人。一人ひとりの顔が見える距離で、自分で考え、言葉にする授業を大切にしています。</p>
+    </div>
+    <div class="pillar">
+      <img class="photo r43" src="img/run.jpg" alt="緑の校内の道を走る生徒たち" style="object-position:55% 70%">
+      <h3>動く</h3>
+      <p>ソアン、労作、音楽、部活動。生徒の8割以上が、聖歌隊やハンドベル、ブラスバンドなどの音楽活動に参加しています。</p>
+    </div>
+    <div class="pillar">
+      <img class="photo r43" src="img/bible.jpg" alt="聖書と、詩編の言葉を書いたカードを手にする生徒" style="object-position:50% 40%">
+      <h3>根を張る</h3>
+      <p>礼拝や聖書、安息日の時間を通して、「何のために生きるのか」を考えます。</p>
+    </div>
+  </div>
+  <div class="facts">
+    <div><b>1:8</b><span>教師と生徒の比率</span></div>
+    <div><b>8割以上</b><span>音楽活動に参加する生徒</span></div>
+    <div><b>8〜9割</b><span>大学・専門学校への進学率</span></div>
+    <div><b>50周年</b><span>2027年に開校50周年</span></div>
+  </div>
+</section>
+
+<!-- CONCERTS -->
+<section class="dark" id="concert" data-o-ryo="4" data-o-concert="5">
+  <div class="eyebrow">クリスマスコンサート</div>
+  <h2>生徒たちの演奏を、<br>聴きに来てください。</h2>
+  <p>東広島では中高生の聖歌隊とハンドベルが、大阪では高校生の聖歌隊が演奏します。会場には学校の先生がいます。</p>
+  <img class="photo r43" src="img/hall.jpg" alt="ホールのステージで歌う聖歌隊と指揮者" style="object-position:62% 60%;margin-bottom:18px">
+  <div class="concerts">
+    <div class="concert" data-concert="hh">
+      <div class="area">東広島</div>
+      <div class="when">12/9（水）18:00 開演</div>
+      <ul><li>東広島芸術文化ホールくらら</li><li>中学・高校の聖歌隊とハンドベル</li><li>平日の夜です。お仕事帰りにご家族で</li></ul>
+      <span class="booth">学校説明ブースあり（開演前・終演後）</span>
+    </div>
+    <div class="concert" data-concert="osaka">
+      <div class="area">大阪</div>
+      <div class="when">12/13（日）</div>
+      <ul><li>高校生の聖歌隊</li><li>11:00　京阪モールでミニコンサート</li><li>13:30〜15:00　SDA大阪センター教会でコンサート（どなたでもお越しいただけます）</li></ul>
+      <span class="booth">学校説明ブースあり（教会会場・13:00〜15:45）</span>
+    </div>
+    <div class="concert" data-concert="all">
+      <div class="area">遠方の方へ</div>
+      <div class="when">12/4（金）19:00</div>
+      <ul><li>校内のクリスマスコンサートをオンラインで配信します</li></ul>
+    </div>
+  </div>
+  <p class="note">入場無料・予約不要です。</p>
+  <div class="cta"><a class="btn line" href="https://lin.ee/wgBShTR">コンサートの案内を受け取る（LINE）</a></div>
+</section>
+
+<!-- VISIT -->
+<section data-o-ryo="5" data-o-concert="6">
+  <div class="eyebrow">個別見学</div>
+  <h2>ご家族だけで、<br>学校と寮を見られます。</h2>
+  <p>ご都合のよい日に、ご家族だけで校舎と寮をご案内します。冬休み中も受け付けています。入学・転入のご相談も随時お受けしています。</p>
+  <img class="photo r43" src="img/basket.jpg" alt="体育館で振り返って笑う生徒たち" style="object-position:50% 45%">
+  <div class="telbox"><span>個別見学のお問い合わせは、お電話でお受けしています</span><a href="tel:0847330311">0847-33-0311</a><small>学校代表（平日17時まで）</small></div>
+</section>
+
+<!-- SCHEDULE -->
+<section style="background:#f3f1ec" data-o-ryo="6" data-o-concert="7">
+  <div class="eyebrow">入試の日程</div>
+  <h2>2027年度 中学入試</h2>
+  <table>
+    <tr><th>1期 出願</th><td>12/2（水）〜1/7（木）</td></tr>
+    <tr><th>学校説明会（本校）</th><td>1/11（月・祝）</td></tr>
+    <tr><th>2期 出願</th><td>1/18（月）〜1/25（月）</td></tr>
+    <tr><th>3期 出願</th><td>2/8（月）〜2/15（月）</td></tr>
+  </table>
+  <p class="note">AOエントリーをしていなくても、1期〜3期のどの時期でも出願できます。</p>
+</section>
+
+<!-- FAQ -->
+<section data-o-ryo="7" data-o-concert="8">
+  <div class="eyebrow">よくある質問</div>
+  <h2>保護者の方から、よく聞かれること</h2>
+  <details><summary>12歳で寮に入るのは、早くありませんか？</summary><p>最初は寂しさを感じる子もいます。寮は、心も体も休まる「家」。生徒も寮監も、第二の家族として暮らしています。在校生の保護者からは、こんな声が届いています。</p><p style="font-family:var(--voice);color:var(--ink)">「子供の可能性を信じて送り出してあげてください。子供は私たちが思っているよりずっと柔軟性があり可能性を秘めてます。」<br><span style="font-family:var(--body);font-size:12px;color:var(--muted)">中学3年生の保護者</span></p></details>
+  <details><summary>離れていて、子どもの様子はわかりますか？</summary><p>寮や学校での様子は、寮監や担任がつくる保護者との連絡グループで、写真付きで共有しています。各寮には外線電話と寮の携帯電話があり、ご家庭と連絡が取れます。</p></details>
+  <details><summary>家にはいつ帰ってきますか？</summary><p>夏・冬・春休みは寮を閉め、全員が自宅に帰ります。5月と10月には希望者が帰れる中間休み（4泊5日）があります。6月と11月の保護者会の翌日は学校の指定休日で、ご家族と外泊できます。</p></details>
+  <details><summary>スマホは使えますか？</summary><p>中学生は持ち込みできません。高校生は許可制で、消灯前の25分間に使えます。ご家庭との連絡は、各寮の外線電話と寮の携帯電話でできます。</p></details>
+  <details><summary>勉強の時間は確保されていますか？</summary><p>毎日19:30〜21:30が自習時間です。希望者は早朝学習（4:00〜6:00）や延灯学習（22:00〜24:00、許可制）もでき、試験前は時間を広げて対応します。教師1人に生徒8人の少人数です。</p></details>
+  <details><summary>食事はどうなっていますか？</summary><p>健康の原則に基づく菜食を、毎食、食堂でみんなでいただきます。朝夕の礼拝が一日のリズムで、金曜の夕方は日没礼拝とベスパーで安息日を迎えます。</p></details>
+  <details><summary>クリスチャンでなくても大丈夫ですか？</summary><p>キリスト教の背景を持たないご家庭からも、多くの生徒が入学しています。初めて聖書に触れる方も、安心してお越しください。</p><p>本校はセブンスデー・アドベンチスト教会の教育理念に基づく学校で、朝夕の礼拝、聖書の授業、土曜日の安息日など、信仰に触れる時間が生活の中心にあります。大切にしているのは、信仰を押しつけることではなく、人生の「根っこ」を育てることです。洗礼は卒業の条件ではありません。</p></details>
+  <details><summary>費用はどのくらいかかりますか？</summary><p>中学校の月額は、授業料34,000円、実験実習費・施設設備費8,500円、寮教育費24,500円、食費33,000円、その他諸経費（学習費・積立金など）10,000円〜で、合計110,000円〜です。</p><p>授業料を上限に毎月支給される広島三育学院奨学金（無利子の貸与）、兄弟姉妹・系列校・卒業生の子女向けの入学金の優待割引、中学AO入試の受験者などを対象にした奨学金・兄弟特別支援があります。詳しくは資料でご案内します。</p></details>
+</section>
+
+<!-- CLOSING -->
+<section class="closing" data-o-ryo="8" data-o-concert="9">
+  <h2 data-entry="ryo">12歳からの寮生活を、<br>一度のぞいてみませんか。</h2>
+  <h2 data-entry="concert">まずは演奏を聴きに、<br>会場へお越しください。</h2>
+  <div class="cta">
+    <a class="btn line" href="https://lin.ee/wgBShTR" data-entry="ryo">学校とコンサートの案内を受け取る（LINE）</a>
+    <a class="btn line" href="https://lin.ee/wgBShTR" data-entry="concert">コンサートの案内を受け取る（LINE）</a>
+    <a class="btn sub" href="https://docs.google.com/a/saniku.ed.jp/forms/d/e/1FAIpQLSfEn3PVfSddrivJyTrLy3nX7ndAHgS3T33gy6OCp4jaVe19fg/viewform?c=0&amp;w=1">資料を請求する</a>
+  </div>
+  <p class="tel">お電話でのお問い合わせ　0847-33-0311（平日17時まで）<br>広島三育学院中学校・高等学校（広島県三原市大和町下徳良296-2）</p>
+</section>
+
+</div>
+<footer>
+  <a class="guide" href="https://guide.hiroshima.saniku.ed.jp/">
+    <span class="g1">Web School Guide</span>
+    <span class="g2">寮生活、学び、入試・学費まで、くわしくはスクールガイドへ</span>
+    <span class="g3">guide.hiroshima.saniku.ed.jp →</span>
+  </a>
+  <div class="copy">© 広島三育学院中学校・高等学校</div>
+</footer>
+</div>
+
+<div class="sticky"><div class="inner">
+  <a class="btn line" href="https://lin.ee/wgBShTR" data-entry="ryo">学校とコンサートの案内を受け取る（LINE）</a>
+  <a class="btn line" href="https://lin.ee/wgBShTR" data-entry="concert">コンサートの案内を受け取る（LINE）</a>
+</div></div>
+
+<script>
+(function(){
+  var patterns=["ryo-hh","ryo-osaka","concert-hh","concert-osaka"]; var current="ryo-hh";
+  function apply(){
+    var h=(location.hash||"").slice(1);
+    if(patterns.indexOf(h)>=0) current=h;
+    var entry=current.split("-")[0], area=current.split("-")[1];
+    document.querySelectorAll(".switch a").forEach(function(a){a.setAttribute("aria-current",a.dataset.p===current?"true":"false");});
+    document.querySelectorAll("[data-entry]").forEach(function(el){el.hidden=el.dataset.entry!==entry;});
+    document.querySelectorAll("[data-area]").forEach(function(el){el.hidden=el.dataset.area!==area;});
+    document.querySelectorAll(".flow > *").forEach(function(el){
+      var o=el.getAttribute("data-o-"+entry); el.style.order=o?o:99;
+    });
+    var wrap=document.querySelector(".concerts");
+    document.querySelectorAll(".concert").forEach(function(c){
+      c.classList.toggle("focus",c.dataset.concert===area);
+      c.hidden=!(c.dataset.concert===area||c.dataset.concert==="all");
+    });
+    var first=document.querySelector('.concert[data-concert="'+area+'"]'); if(first) wrap.prepend(first);
+  }
+  window.addEventListener("hashchange",apply); apply();
+})();
+</script>
+</body>
+</html>
